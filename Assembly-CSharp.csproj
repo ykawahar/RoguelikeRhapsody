@@ -37,13 +37,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\HitBox.cs" />
      <Compile Include="Assets\Scripts\Player\RBPlayerController.cs" />
-     <Compile Include="Assets\Scripts\Enemy\BasicEnemy.cs" />
-     <Compile Include="Assets\Scripts\Spawner.cs" />
-     <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\Player\BeatEmUpMovement.cs" />
+     <Compile Include="Assets\Scripts\Enemy\BasicEnemy.cs" />
      <Compile Include="Assets\Scripts\Camera\SmoothCamera.cs" />
+     <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\LevelManagerEnemies.cs" />
+     <Compile Include="Assets\Scripts\HurtBox.cs" />
      <Compile Include="Assets\Scripts\UI\RadialHealthBar.cs" />
+     <Compile Include="Assets\Scripts\LevelManagerTribute.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

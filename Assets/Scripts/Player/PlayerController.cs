@@ -6,9 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     private CharacterController charController;
     
-    [SerializeField] private float hp = 0f;
+    [SerializeField] private float maxHP = 100f;
     [SerializeField] private float strength = 1f;
     [SerializeField] private float speed = 10;
+
+    private float currentHP;
 
     private float gravity = 9.8f;
     private float jumpSpeed = 5f;
@@ -20,6 +22,8 @@ public class PlayerController : MonoBehaviour
 
     private bool grounded;
 
+    Transform attackPoint;
+    float attackRange = 0.5f;
 
     
 
@@ -29,6 +33,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         charController = GetComponent<CharacterController>();
+        currentHP = maxHP;
 
     }
 
@@ -58,7 +63,24 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    void Attack()
+    {
+
+        
+        // Collider[] hitEnemies = Physics HitSphere(attackPoint.position, attackRange);
+        // foreach(Collider hits in hitEnemies){
+        //     Debug.Log("hit " + hits);
+        // }
+    }
+
+    void OnDrawGizmosSelected() {
+        if (attackPoint = null){
+            return;
+        }
+        // Gizmos DrawWireSphere(attackPoint.position, attackRange);
+    }
+
     float GetHP(){
-        return hp;
+        return maxHP;
     }
 }

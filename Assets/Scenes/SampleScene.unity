@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 522897600}
   - component: {fileID: 522897599}
   m_Layer: 0
-  m_Name: LevelManager
+  m_Name: LevelManagerEnemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,6 +487,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 8101887993695350243, guid: 8d1f6d6f7617942a186e963d7a02a182, type: 3}
+  statue: {fileID: 4561582145247690616, guid: 39b4a14b9b1a045a0905c6c4e7b4021f, type: 3}
+  roomtype: Enemy
 --- !u!65 &522897600
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -994,6 +996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6915e380ba5e8444fbbbf0313cfb723a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHP: 100
+  strength: 1
   speed: 5
 --- !u!1 &920710787
 GameObject:

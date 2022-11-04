@@ -5,21 +5,32 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638030981358361066
     m_Hash: 4109648438
+=======
+      ticks: 638030887320000000
+    m_Hash: 2003956774
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
   m_LockFileStatus:
     m_FilePath: C:/Users/sfecr/Documents/GitHub/RoguelikeRhapsody/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638030981358473577
     m_Hash: 2273223494
+=======
+      ticks: 638030887320000000
+    m_Hash: 2889151785
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+<<<<<<< HEAD
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
       isDirectDependency: 1
@@ -408,6 +419,8 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
+=======
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
     - packageId: com.unity.collab-proxy@1.5.7
       testable: 0
       isDirectDependency: 1
@@ -3237,6 +3250,7 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
         revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
         path: 
+<<<<<<< HEAD
     - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
@@ -3734,6 +3748,8 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+=======
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: C:/Users/sfecr/Documents/GitHub/RoguelikeRhapsody/Packages

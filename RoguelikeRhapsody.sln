@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5bba9a78-cfc7-f71a-f3f1-3b35ad404f97}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{6561e9b0-e499-3acd-7b98-fc0cf0cff78f}"
+EndProject
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,6 +15,11 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5bba9a78-cfc7-f71a-f3f1-3b35ad404f97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5bba9a78-cfc7-f71a-f3f1-3b35ad404f97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+<<<<<<< HEAD
+=======
+		{6561e9b0-e499-3acd-7b98-fc0cf0cff78f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6561e9b0-e499-3acd-7b98-fc0cf0cff78f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

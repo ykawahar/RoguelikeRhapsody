@@ -647,8 +647,50 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/sfecr/Documents/GitHub/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>/Users/yuki/Documents/Class/Fall 2022/COMP 394/RoguelikeRhapsody/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{6561e9b0-e499-3acd-7b98-fc0cf0cff78f}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{77cd7266-b7af-10e8-a7cc-47c61fa32619}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{b3b606f9-df74-618a-40fd-332614928b4a}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

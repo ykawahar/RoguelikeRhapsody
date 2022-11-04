@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "com.unity.2d.animation": {
       "version": "5.0.5",
       "depth": 1,
@@ -26,6 +27,13 @@
     "com.unity.2d.path": {
       "version": "4.0.2",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.2d.pixel-perfect": {
+      "version": "4.0.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -59,6 +67,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> 00a8bf73e9234edc81e996eea98543c18b444c54
     "com.unity.collab-proxy": {
       "version": "1.5.7",
       "depth": 0,
@@ -96,13 +106,6 @@
     "com.unity.ide.vscode": {
       "version": "1.2.3",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.mathematics": {
-      "version": "1.1.0",
-      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
